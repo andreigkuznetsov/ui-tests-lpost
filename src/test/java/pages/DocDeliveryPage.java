@@ -1,7 +1,7 @@
 package pages;
 
 import io.qameta.allure.Step;
-import pages.components.servicesMainMenuSection.TitleAndDescDeliveryPages;
+import pages.components.servicesmenu.TitleAndDescDeliveryPages;
 
 import static com.codeborne.selenide.Selenide.open;
 

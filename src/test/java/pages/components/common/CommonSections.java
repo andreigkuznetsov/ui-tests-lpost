@@ -1,4 +1,4 @@
-package pages.components.commonSections;
+package pages.components.common;
 
 import io.qameta.allure.Step;
 

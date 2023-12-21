@@ -1,4 +1,4 @@
-package pages.components.startPage;
+package pages.components.startpage;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.*;
-import pages.components.commonSections.CommonSections;
+import pages.components.common.CommonSections;
 
 import static data.TestData.*;
 

@@ -1,6 +1,6 @@
-package pages.components.startPage;
+package pages.components.startpage;
 
-import pages.components.commonSections.PageTitleAndMainContent;
+import pages.components.common.PageTitleAndMainContent;
 
 public class ServicesSection {
 

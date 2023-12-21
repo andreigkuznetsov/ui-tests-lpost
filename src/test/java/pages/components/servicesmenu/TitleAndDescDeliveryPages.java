@@ -1,4 +1,4 @@
-package pages.components.servicesMainMenuSection;
+package pages.components.servicesmenu;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;

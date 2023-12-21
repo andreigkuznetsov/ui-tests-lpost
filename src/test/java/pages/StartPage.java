@@ -1,7 +1,7 @@
 package pages;
 
 import io.qameta.allure.Step;
-import pages.components.startPage.*;
+import pages.components.startpage.*;
 
 import static com.codeborne.selenide.Selenide.*;
 

@@ -3,8 +3,8 @@ package pages;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-import pages.components.servicesMainMenuSection.DeliverySuggestBlock;
-import pages.components.servicesMainMenuSection.TitleAndDescDeliveryPages;
+import pages.components.servicesmenu.DeliverySuggestBlock;
+import pages.components.servicesmenu.TitleAndDescDeliveryPages;
 
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;

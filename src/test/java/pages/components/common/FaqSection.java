@@ -1,4 +1,4 @@
-package pages.components.commonSections;
+package pages.components.common;
 
 public class FaqSection {
 

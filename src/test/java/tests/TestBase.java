@@ -16,10 +16,6 @@ public class TestBase {
     @BeforeAll
     static void beforeAll() {
 
-        //Configuration.browserSize = "1920x1080";
-        //Configuration.baseUrl = "https://l-post.ru";
-        //Configuration.pageLoadStrategy = "eager";
-
         Configuration.baseUrl = System.getProperty("BaseUrl", "https://l-post.ru");
         Configuration.pageLoadStrategy = "eager";
         Configuration.remote = System.getProperty("remoteUrl",
