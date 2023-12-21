@@ -67,7 +67,7 @@ allure serve build/allure-results
 
 ### Для отображения результатов сборок также используется Allure TestOps.
 
-##### Примеры запусков и их результаты можно посмотреть [по ссылке](https://allure.autotests.cloud/project/718/dashboards)
+##### Примеры запусков и их результаты можно посмотреть [по ссылке](https://allure.autotests.cloud/project/3888/dashboards)
 
 ### Пример списка тестов и их прохождения в Allure TestOps
 
