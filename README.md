@@ -20,28 +20,21 @@ Java, Gradle, JUnit5, Selenide, Jenkins, Selenoid, Allure Reports, Telegram (у�
 
 ##### Примеры готовых сборок можно посмотреть [по ссылке](https://jenkins.autotests.cloud/job/c23-andreikuzn-ui-project-lpost/)
 
-### Используемые параметры по умолчанию
+### Используемые параметры сборки Jenkins:
 
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
+* BROWSER (браузер, по умолчанию chrome)
+* BROWSER_VERSION (версия браузера, по умолчанию 100.0)
+* REMOTE_URL (адрес удаленного сервера, на котором будут выполняться тесты)
+* BROWSER_SIZE (размер окна браузера, по умолчанию 1920x1080)
+* TASK (набор тестов (all, smoke, regerss) для запуска)
+* BASE_URL (адрес основной страницы тестируемого сайта)
 
-Запуск тестов с заполненным файлом configurationSelenoid.properties:
-
-```bash
-gradle clean test
-```
-
-Запуск тестов с не заполненным файлом configurationSelenoid.properties:
+### Запуск тестов из терминала
 
 ```bash
-gradle clean -DRemoteBrowserUrl=https://user1:1234@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
-
-Serve report:
-
-```bash
-allure serve build/allure-results
+gradle clean all_tests
+gradle clean smoke_tests
+gradle clean regress_tests
 ```
 
 ### Запуск тестов в Jenkins
@@ -49,21 +42,21 @@ allure serve build/allure-results
 ##### Открыть сборку Jenkins [по ссылке](https://jenkins.autotests.cloud/job/c23-andreikuzn-ui-project-lpost/)
 ##### Нажать на кнопку "Собрать с параметрами"
 
-![Jenkins_Start](./img/Jenkins_Start.png)
+![Jenkins_Start](./img/JenkinsStart.png)
 
 ##### Выбрать параметры, нажать на кнопку "Собрать"
 
-![Jenkins_Start](./img/Jenkins_Start1.png)
+![Jenkins_Start](./img/JenkinsStart1.png)
 
 ##### Дождаться выполнения сборки. нажать на кнопку "Allure Report"
 
-![Jenkins_Start](./img/Jenkins_Start2.png)
+![Jenkins_Start](./img/JenkinsStart2.png)
 
 ### Анализ результатов запусков в Jenkins через Allure Reports
 
-![Jenkins_Allure_Reports](./img/Jenkins_Allure_Reports.png)
+![Jenkins_Allure_Reports](./img/JenkinsAllureReports.png)
 
-![Jenkins_Allure_Reports1](./img/Jenkins_Allure_Reports1.png)
+![Jenkins_Allure_Reports1](./img/JenkinsAllureReports1.png)
 
 ### Для отображения результатов сборок также используется Allure TestOps.
 
@@ -71,26 +64,26 @@ allure serve build/allure-results
 
 ### Пример списка тестов и их прохождения в Allure TestOps
 
-![Allure TestOps](./img/Allure_TestOps.png)
+![Allure TestOps](./img/AllureTestOps.png)
 
 ### Результаты запусков Launches в Allure TestOps
 
-![Allure_Launches](./img/Allure_Launches.png)
+![Allure_Launches](./img/AllureLaunches.png)
 
 ### Основной Dashboards
 
-![Allure Dashboards](img/Allure_Dashboards.png)
+![Allure Dashboards](img/AllureDashboards.png)
 
 ### Добавлена интеграция с Jira, где можно посмотреть запускаемые кейсы и их результаты.
 
 ##### Перейти в Jira можно [по ссылке](https://jira.autotests.cloud/browse/HOMEWORK-1009)
 
-![Jira](./img/Jira.png)
+![Jira](./img/Jira1009.png)
 
 ### После прохождения тестов в telegram канал приходит оповещение с результами.
 
-![Telegram](./img/Telegram.jpg)
+![Telegram](./img/Telegram1.jpg)
 
 ### Пример прохождения тестов можно посмотреть на видео
 
-![video](./img/video.gif)
+![video](./img/videoPvz.gif)
