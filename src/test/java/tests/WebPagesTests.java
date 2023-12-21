@@ -123,7 +123,7 @@ public class WebPagesTests extends TestBase {
     @Tag("regress-tests")
     @Test
     void documentsDeliveryPageTests() {
-        new DocDeliveryPage().checkDocDeliveryPage();
+        new DocDeliveryPage().openDocDeliveryPage();
         commonSections.checkHeaderContent()
                 .checkMainMenuContent()
                 .checkContactsSection()
