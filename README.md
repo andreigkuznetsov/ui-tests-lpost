@@ -83,7 +83,7 @@ allure serve build/allure-results
 
 ### Добавлена интеграция с Jira, где можно посмотреть запускаемые кейсы и их результаты.
 
-##### Перейти в Jira можно [по ссылке](https://jira.autotests.cloud/browse/HOMEWORK-281)
+##### Перейти в Jira можно [по ссылке](https://jira.autotests.cloud/browse/HOMEWORK-1009)
 
 ![Jira](./img/Jira.png)
 
