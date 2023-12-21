@@ -18,7 +18,7 @@ Java, Gradle, JUnit5, Selenide, Jenkins, Selenoid, Allure Reports, Telegram (у�
 
 ### Для запусков автотестов используется Jenkins.
 
-##### Примеры готовых сборок можно посмотреть [по ссылке]((https://jenkins.autotests.cloud/job/c23-andreikuzn-ui-project-lpost/))
+##### Примеры готовых сборок можно посмотреть [по ссылке](https://jenkins.autotests.cloud/job/c23-andreikuzn-ui-project-lpost/)
 
 ### Используемые параметры по умолчанию
 
@@ -46,7 +46,7 @@ allure serve build/allure-results
 
 ### Запуск тестов в Jenkins
 
-##### Открыть сборку Jenkins [по ссылке]((https://jenkins.autotests.cloud/job/c23-andreikuzn-ui-project-lpost/))
+##### Открыть сборку Jenkins [по ссылке](https://jenkins.autotests.cloud/job/c23-andreikuzn-ui-project-lpost/)
 ##### Нажать на кнопку "Собрать с параметрами"
 
 ![Jenkins_Start](./img/Jenkins_Start.png)
